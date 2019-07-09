@@ -1,0 +1,22 @@
+{
+    "name": "jeekman/jeekpay",
+    "description": "This a sdk for jeekpay",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jeekpay",
+            "email": "jeekpay@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeekPay\\Error\\": "src/JeekPay/Error",
+            "JeekPay\\Sdk\\": "src/JeekPay/Sdk"
+        }
+    }
+}
